@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pythonpets"
+version = "0.1.0"
+description = "Scripts do Curso PythonPets"
+authors = ["Prog-LucasAlves <lucasalves_taz@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Prog-LucasAlves/PythonPets"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.urls]
+issues = "https://github.com/Prog-LucasAlves/PythonPets"
