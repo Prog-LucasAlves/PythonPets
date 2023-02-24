@@ -9,6 +9,9 @@ repository = "https://github.com/Prog-LucasAlves/PythonPets"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pandas = "^1.5.2"
+matplotlib = "^3.6.3"
+seaborn = "^0.12.2"
 
 
 [tool.poetry.group.dev.dependencies]
